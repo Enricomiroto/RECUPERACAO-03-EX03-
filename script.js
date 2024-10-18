@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/Enricomiroto/RECUPERACAO-03-EX03-/refs/heads/main/dados.json')
+fetch('https://raw.githubusercontent.com/Enricomiroto/RECUPERACAO-03-EX03-/refs/heads/main/dados.json)
     .then(response => response.json())
     .then(data => {
         const pieCtx = document.getElementById('pieChart').getContext('2d');
